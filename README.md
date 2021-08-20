@@ -23,9 +23,9 @@ The app relies on a secret set as the environment variable `JWT_SECRET` to produ
      
 ## Project Steps
 
-1. Write a Dockerfile for a simple Flask API
-2. Build and test the container locally
-3. Create an EKS cluster
-4. Store a secret using AWS Parameter Store
-5. Create a CodePipeline pipeline triggered by GitHub checkins
-6. Create a CodeBuild stage which will build, test, and deploy your code
+1. Wrote a Dockerfile for a simple Flask API
+2. Built and tested the container locally
+3. Created an EKS cluster
+4. Stored a secret using AWS Parameter Store
+5. Created a CodePipeline pipeline triggered by GitHub checkins
+6. Created a CodeBuild stage which will build, test, and deployd my code
